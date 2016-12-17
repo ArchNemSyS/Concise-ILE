@@ -1,0 +1,79 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'dejavu_sans_monobook', Arial, sans-serif;
+  vertical-align: baseline;
+}
+
+* { color:#839496; }
+
+h1, h2, h3, h4, h5, h6
+{
+    font-weight: bold;
+    text-shadow: 0px 0px 8px #586e75;
+}
+
+body {
+  background: #002b36 url(../img/Logo03.png) no-repeat fixed center;
+  background-size: contain;
+}
+
+input[type="text"] 
+{
+    background: rgba(0, 0, 0, 0);
+}
+
+input[type="password"]
+{
+    background: rgba(0, 0, 0, 0);
+}
+
+
+input {
+    border-radius: 25px;
+    border: 2px solid #839496;
+    padding: 3px 7px;  
+    box-shadow: 2px 2px 3px #586e75;
+    font-weight: bold;
+}
+
+input:focus {
+  border-color: #268bd2;
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.form {
+    margin:auto 0;
+    text-align: center;
+}
+
+.footer {
+  display: table-row;
+  height:1px;
+}

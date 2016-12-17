@@ -1,0 +1,38 @@
+#include "include/head_login.htm"
+<title>Login</title></head>
+
+<body>
+
+<div class="outer">
+<div class="middle">
+<div class="inner">
+
+    {if logged-in}
+          <p>Your already logged in</p>
+    {else logged-in}
+    <div class="form">
+    <form method='POST' action={action}>
+          <h1 style="text-align: center;">Concise</h1>
+          Username: <br>
+          <input type='text' name='username'><br>
+          Password: <br>
+          <input type='password' name='password'><br><br>
+        {if retry}
+            <p style="color: #dc322f">username or password incorrect, please try again</p>
+        {end retry}
+        {if logged-out}
+            <p style="color: #dc322f">signed out</p>
+        {end logged-out}
+          <br>
+          <input  type='submit' value="Login">
+    </form>
+    </div>
+    {end logged-in}
+
+</div>
+</div>
+
+#include "include/footer.htm"
+</body>
+
+</html>

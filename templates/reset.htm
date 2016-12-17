@@ -1,0 +1,45 @@
+#include "include/head_login.htm"
+<title>Reset Password</title></head>
+
+
+<body>
+<div class="outer">
+<div class="middle">
+<div class="inner">
+
+    {if user_token}
+    <script src="../files/js/seedrandom.min.js"></script>
+    <script src="../files/js/passgen.js"></script>
+
+    <div class="form">
+            <h1 style="text-align: center;">Concise</h1>
+            <p style="color: #dc322f" id="password"></p>
+            <br>
+            <button onclick="Diceware.generate_password()">Reset Password</button>
+            <br>
+            <br>
+    </div>
+
+    {else user_token}
+    <div class="form">
+    <form method='POST' action={action}>
+          <h1 style="text-align: center;">Concise</h1>
+          Username: <br>
+          <input type='text' name='username'><br>
+          <br>
+          <input type="hidden" name="token" value={token}>
+          <input type='submit' value="Reset">
+    </form>
+    </div>
+    {end user_token}
+
+</div>
+</div>
+
+#include "include/footer.htm"
+
+
+
+</body>
+
+</html>

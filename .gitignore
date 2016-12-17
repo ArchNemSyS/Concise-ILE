@@ -27,3 +27,8 @@
 *.exe
 *.out
 *.app
+
+#OS and Data Files
+*.db
+*.*~
+~$*
