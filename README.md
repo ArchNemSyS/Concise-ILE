@@ -4,6 +4,9 @@ Concise Integrated Learning Environment
 # Work in progress !!! Not Yet Production Ready !!!
 eLearning/web assessment tool that integrates with paper based learning.
 
+# Licence
+Concise is avaliable under the terms of the [AGPLv3](https://www.gnu.org/licenses/agpl-3.0.en.html) 
+
 # Third Party Licences
 Concise graciously makes use of but is not affiliated with, nor authorised, endorsed or licensed in any way by the following :
 
