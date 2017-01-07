@@ -1,4 +1,4 @@
-#Concise-ILE
+#Concise-ILE-Qt
 Concise Integrated Learning Environment
 
 # Work in progress !!! Not Yet Production Ready !!!
