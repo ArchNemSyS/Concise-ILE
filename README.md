@@ -1,7 +1,9 @@
 #Concise-ILE-Qt
-Concise Integrated Learning Environment
+This project has been abandoned in favor of a more performant solution (Concise-ILE)[https://github.com/ArchNemSyS/Concise-ILE]
 
-# Work in progress !!! Not Yet Production Ready !!!
+It is retained here on github as an example of QtWebapp and libsodium implementation 
+
+Concise Integrated Learning Environment
 eLearning/web assessment tool that integrates with paper based learning.
 
 # Licence
