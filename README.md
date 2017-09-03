@@ -1,5 +1,5 @@
 #Concise-ILE-Qt
-This project has been abandoned in favor of a more performant solution (Concise-ILE)[https://github.com/ArchNemSyS/Concise-ILE]
+This project has been abandoned in favor of a more performant solution [Concise-ILE](https://github.com/ArchNemSyS/Concise-ILE)
 
 It is retained here on github as an example of QtWebapp and libsodium implementation 
 
